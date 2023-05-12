@@ -18,6 +18,10 @@ export default function Essays() {
       <header>
         <h1 className="font-bold text-4xl text-zinc-800">Essays</h1>{" "}
       </header>{" "}
+      <div className="mt-8">
+        <h3>How to setup Docker</h3>
+        <p className="text-slate-800 my-4">sdsdsd</p>
+      </div>
     </div>
   );
 }
