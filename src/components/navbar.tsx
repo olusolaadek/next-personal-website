@@ -1,25 +1,5 @@
 import React from "react";
-
-type NavItemProps = {
-  title: string;
-  url: string;
-  isSelected: boolean;
-};
-
-function NavItem(props: NavItemProps) {
-  const { title, url, isSelected } = props;
-  return (
-    <li>
-      <a
-        href={url}
-        className={`block px-3 py-2 transition hover:text-teal-500
-        ${isSelected ? "text-teal-500" : ""}`}
-      >
-        {title}
-      </a>
-    </li>
-  );
-}
+import { NavItem } from "./NavItem";
 
 type NavbarProps = {
   pageId: string;
